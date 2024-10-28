@@ -6,3 +6,7 @@ Proyecto simulando trabajo en equipo con estudiantes, sobre un tema de enforque 
 ### Juan Cotera
 ### Rol: QA
     Yo me encargaré de....
+
+### Jack
+### Rol: diseño y maquetación
+    Yo me encargaré del diseño de la web
