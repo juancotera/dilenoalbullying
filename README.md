@@ -4,9 +4,9 @@ Proyecto simulando trabajo en equipo con estudiantes, sobre un tema de enforque 
 ## Participantes:
 
 ### Juan Cotera
-### Rol:QA 
-     yo me encargare de...
+### Rol: QA
+    Yo me encargaré de....
 
-### Junior Artica
-### Rol:Grupo de Interactividad y Funcionalidades
-     Añadir interactividad al sitio, como animaciones, botones de compartir en redes sociales, o cualquier funcionalidad extra.
+### Junior
+### Rol: diseño y maquetación
+    Yo me encargaré del diseño de la web
