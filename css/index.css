@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página con pie de página</title>
+    <style>
+        /* Estilos para el pie de página */
+        footer {
+            background-color: #333; /* Color de fondo */
+            color: #fff; /* Color de texto */
+            padding: 20px;
+            text-align: center;
+            font-size: 14px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        footer a {
+            color: #00aaff; /* Color de enlaces */
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        /* Ajuste para dispositivos móviles */
+        @media (max-width: 600px) {
+            footer {
+                font-size: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Contenido de la página -->
+
+    <footer>
+        © 2024 Nombre de la Escuela. Todos los derechos reservados. Para más información, visita nuestro sitio web en 
+        <a href="http://www.escuelaejemplo.edu" target="_blank">www.escuelaejemplo.edu</a> 
+        o contáctanos al (000) 123-4567. Síguenos en redes sociales.
+    </footer>
+
+</body>
+</html>
