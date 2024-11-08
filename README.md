@@ -12,4 +12,4 @@ Proyecto simulando trabajo en equipo con estudiantes, sobre un tema de enforque 
     Yo me encargaré del diseño de la web
 
 ### Gerardo cananahuay
-### rol:Desarrollador
+### rol:Desarrolladorgita
