@@ -6,6 +6,7 @@
 @import url(./recursos.css);
 @import url(./about.css);
 @import url(./actions.css);
+@import url(./home.css);
 
 :root {
     --blanco: #ffffff;
@@ -24,4 +25,3 @@
     --small: 400 0.8125rem/7.500000298023224rem Inter;
     --x-small: 400 0.625rem/7.500000298023224rem Inter;
 }
-
