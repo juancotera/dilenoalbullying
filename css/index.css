@@ -1,0 +1,25 @@
+@import url(./footer.css);
+@import url(./header.css);
+@import url(./encuesta.css);
+@import url(./contacto.css);
+@import url(./casos_testimonios.css);
+@import url(./recursos.css);
+@import url(./about.css);
+
+:root {
+    --blanco: #ffffff;
+    --negro: #212121;
+    --marron: #582707;
+    --ladrillo: #972d07;
+    --naranja: #ff4b3e;
+    --amarillo: #ffb20f;
+    --h1-bold: 700 3.8125rem/7.500000298023224rem Inter;
+    --h2-bold: 700 3.0625rem/7.500000298023224rem Inter;
+    --h4-bold: 700 2.4375rem/7.500000298023224rem Inter;
+    --h4-bold: 700 1.9375rem/7.500000298023224rem Inter;
+    --h5-bold: 700 1.5625rem/7.500000298023224rem Inter;
+    --h6-bold: 700 1.25rem/7.500000298023224rem Inter;
+    --parrafo: 400 1rem/7.500000298023224rem Inter;
+    --small: 400 0.8125rem/7.500000298023224rem Inter;
+    --x-small: 400 0.625rem/7.500000298023224rem Inter;
+}
