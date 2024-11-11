@@ -5,8 +5,8 @@
 @import url(./casos_testimonios.css);
 @import url(./recursos.css);
 @import url(./about.css);
+@import url(./actions.css);
 @import url(./home.css);
-
 
 :root {
     --blanco: #ffffff;

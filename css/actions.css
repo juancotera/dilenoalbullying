@@ -1,0 +1,19 @@
+/*wraper*/
+
+h1{
+    color: var(--marron);
+    text-align: center;
+}
+
+.paso-contenedor-img{
+    width: 30%;
+}
+
+.paso-contenedor-1{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+p{
+    text-align: left;
+}
