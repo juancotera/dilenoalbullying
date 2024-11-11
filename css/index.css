@@ -1,45 +1,26 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página con pie de página</title>
-    <style>
-        /* Estilos para el pie de página */
-        footer {
-            background-color: #333; /* Color de fondo */
-            color: #fff; /* Color de texto */
-            padding: 20px;
-            text-align: center;
-            font-size: 14px;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
-        footer a {
-            color: #00aaff; /* Color de enlaces */
-            text-decoration: none;
-        }
-        footer a:hover {
-            text-decoration: underline;
-        }
-        /* Ajuste para dispositivos móviles */
-        @media (max-width: 600px) {
-            footer {
-                font-size: 12px;
-            }
-        }
-    </style>
-</head>
-<body>
+@import url(./footer.css);
+@import url(./header.css);
+@import url(./encuesta.css);
+@import url(./contacto.css);
+@import url(./casos_testimonios.css);
+@import url(./recursos.css);
+@import url(./about.css);
 
-    <!-- Contenido de la página -->
+:root {
+    --blanco: #ffffff;
+    --negro: #212121;
+    --marron: #582707;
+    --ladrillo: #972d07;
+    --naranja: #ff4b3e;
+    --amarillo: #ffb20f;
+    --h1-bold: 700 3.8125rem/7.500000298023224rem Inter;
+    --h2-bold: 700 3.0625rem/7.500000298023224rem Inter;
+    --h4-bold: 700 2.4375rem/7.500000298023224rem Inter;
+    --h4-bold: 700 1.9375rem/7.500000298023224rem Inter;
+    --h5-bold: 700 1.5625rem/7.500000298023224rem Inter;
+    --h6-bold: 700 1.25rem/7.500000298023224rem Inter;
+    --parrafo: 400 1rem/7.500000298023224rem Inter;
+    --small: 400 0.8125rem/7.500000298023224rem Inter;
+    --x-small: 400 0.625rem/7.500000298023224rem Inter;
+}
 
-    <footer>
-        © 2024 Nombre de la Escuela. Todos los derechos reservados. Para más información, visita nuestro sitio web en 
-        <a href="http://www.escuelaejemplo.edu" target="_blank">www.escuelaejemplo.edu</a> 
-        o contáctanos al (000) 123-4567. Síguenos en redes sociales.
-    </footer>
-
-</body>
-</html>
