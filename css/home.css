@@ -1,0 +1,48 @@
+/* Principio */
+.home-titulo{
+    font-size: 61px;
+
+}
+.home-box-princio {
+    display: flex;
+}
+
+.home-parrafo {
+    font-size: 16px;
+}
+
+.home-report {
+    background-color: var(--amarillo);
+    width: max-content;
+    padding: 24px;
+    border-radius: 8px;
+}
+
+.home-cta {
+    color: var(--negro);
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.home-subtitulo{
+    font-size: 49px;
+    text-align: center;
+}
+
+.home-box-two {
+    
+}
+
+.home-card-contenido {
+    width: 180px;
+    background-color: var(--amarillo);
+    padding: 16px;
+    text-align: center;
+    border-radius: 16px;
+}
+
+.home-card {
+    display: flex;
+    justify-content: space-between;
+    
+}
