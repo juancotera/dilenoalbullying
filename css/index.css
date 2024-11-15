@@ -25,3 +25,25 @@
     --small: 400 0.8125rem/7.500000298023224rem Inter;
     --x-small: 400 0.625rem/7.500000298023224rem Inter;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+}
+
+.wrapper {
+    max-width: 1400px;
+    border: 1px solid green;
+    margin: auto;
+}
+
+.button {
+    padding: 16px;
+    background-color: var(--naranja);
+    color: var(--blanco);
+    text-decoration: none;
+    border-radius: 8px;
+    font: var(--parrafo);
+}
