@@ -1,14 +1,31 @@
 /* Principio */
-.home-titulo{
-    font-size: 61px;
 
+.home-titulo{
+    /* font-size: 61px;
+    color: var(--negro); */
+    font-family: Inter;
+    font-size: 61px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; 
 }
 .home-box-princio {
     display: flex;
+    padding: 24px;
+    margin-block: 80px;
 }
 
 .home-parrafo {
-    font-size: 16px;
+    font-size: 24px;
+    width: 680px;
+    gap: 32px;
+    margin-top: 32px;
+}
+
+.home-imagen {
+    width: 460px;
+    height: 437px;
+    border-radius: 16px;
 }
 
 .home-report {
@@ -16,33 +33,50 @@
     width: max-content;
     padding: 24px;
     border-radius: 8px;
-}
-
-.home-cta {
+    display: block;
     color: var(--negro);
     text-decoration: none;
     font-size: 16px;
+    margin: auto;
+    box-shadow: 0px 9px 40px 0px rgba(0, 0, 0, 0.15);
+}
+
+/* segunda parte */
+
+.home-box-recomendaciones{
+    padding: 24px;
+    margin-block: 80px;
 }
 
 .home-subtitulo{
     font-size: 49px;
     text-align: center;
-}
-
-.home-box-two {
-    
+    margin-bottom: 32px;
 }
 
 .home-card-contenido {
-    width: 180px;
-    background-color: var(--amarillo);
-    padding: 16px;
+    display: flex;
+width: 216px;
+padding: 12px;
+flex-direction: column;
+align-items: center;
+gap: 16px;
+background-color: var(--amarillo);
+border-radius: 16px;
+}
+
+.home-card-contenido p {
     text-align: center;
-    border-radius: 16px;
 }
 
 .home-card {
     display: flex;
-    justify-content: space-between;
-    
+    gap: 32px;
+    justify-content: center;
 }
+
+.home-card-imagen {
+    width: 70px;
+    height: 70px;
+}
+
