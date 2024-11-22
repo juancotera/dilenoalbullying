@@ -36,14 +36,11 @@
     margin: 40px;
     justify-content: space-between;
     color: var(--blanco);
+    flex-wrap: wrap;
+    gap: 24px;
 }
 
-.actons-two{
-    display: flex;
-    margin: 40px;
-    justify-content: space-between;
-    color: var(--blanco);
-}
+
 
 .tipos-actions{
     width: 30%;
