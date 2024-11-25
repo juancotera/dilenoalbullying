@@ -1,19 +1,78 @@
 /*wraper*/
 
-h1{
+.action-content {
+    margin-block: 80px;
+}
+
+.title-actions{
     color: var(--marron);
+    justify-content: center;
+    width: 400px;
+    margin: auto;
     text-align: center;
+    font-size: 61px;
+    font-family: Inter;
 }
 
-.paso-contenedor-img{
-    width: 30%;
+.actions-five{
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    font-size: 25px;
 }
 
-.paso-contenedor-1{
+.introducción-actions{
+    margin-top: 40px;
+    font-size: 24px;
+}
+
+.titulo-introduccion{
+    padding: 16px;
+    margin: 16px;
+}
+
+.acctions-inicial{
     display: flex;
-    flex-direction: row-reverse;
+    margin: 40px;
+    justify-content: space-between;
+    color: var(--blanco);
+    flex-wrap: wrap;
+    gap: 24px;
 }
 
-p{
-    text-align: left;
+
+
+.tipos-actions{
+    width: 30%;
+    background-color: #FFB20F;
+    padding: 16px;
+    border-radius: 16px;
+    box-shadow: 0px 9px 27px 0px rgb(0, 0, 0, 0.25);
+}
+
+#img-actions{
+    width: 90%;
+    margin: 16px;
+    padding: 8px;
+    height: 250px;
+}
+
+.boton-para-actions{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: auto;
+    text-align: center;
+    padding-inline: 30%;
+}
+
+.button-actions {
+    padding: 16px;
+    background-color: var(--naranja);
+    color: var(--blanco);
+    text-decoration: none;
+    border-radius: 8px;
+    /* font: var(--parrafo); */
+    display: block;
 }
