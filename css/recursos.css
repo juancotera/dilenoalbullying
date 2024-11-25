@@ -1,14 +1,11 @@
-.recursos-espacio{
-    padding: 80px 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 32px;
-    align-self: stretch;
-    
-}
+
 .title{
     text-align: center;
+    background-color: var(--amarillo);
+    padding: 10px;
+    border-radius: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 9px 27px 0px rgba(0, 0, 0, 0.500);
 }
 .recursos-cuadrado{
     background: var(--amarillo);
@@ -19,8 +16,9 @@
     padding: 16px;
     align-items: left;
     gap: 24px;
-    
+    box-shadow: 0px 9px 27px 0px rgba(0, 0, 0, 0.500);
 }
+
 .recursos-tamaño{
     display: flex;
     justify-content: center;
@@ -31,14 +29,9 @@
     gap: 16px;
     
 }
-.recursos-botones{
-    display: block;
+
+button{
+ border-radius: 13px;
+ background-color: var(--amarillo);
 }
-.button{
-    border: 0;
-    background-image: linear-gradient(
-        150deg,
-        var(--amarillo)
-        var(--naranja)
-    );
-}
+
