@@ -21,14 +21,13 @@
     font-size: 25px;
 }
 
-.introducción-actions{
-    margin-top: 40px;
-    font-size: 24px;
-}
 
 .titulo-introduccion{
     padding: 16px;
     margin: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 .acctions-inicial{
@@ -43,10 +42,13 @@
 
 
 .tipos-actions{
-    width: 30%;
+    width: 328px;
     background-color: #FFB20F;
     padding: 16px;
     border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 } 
 
 .tipos-actions:hover{
@@ -55,10 +57,10 @@
 }
 
 #img-actions{
-    width: 90%;
-    margin: 16px;
-    padding: 8px;
-    height: 250px;
+    width: 100%;
+    height: 187px;
+    object-fit: cover;
+    border-radius: 8px;
 }
 
 .boton-para-actions{
