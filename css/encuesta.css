@@ -1,0 +1,56 @@
+.container{
+    background-image: linear-gradient(
+        rgb(0,0,0,0.3),
+        rgb(0,0,0,0.3)
+    ),url(https://www.alphilpsicologos.com/wp-content/uploads/2023/10/Como-se-siente-una-persona-que-sufre-bullying-1023x675.jpg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    padding: 32px;
+    height: 1000px;
+}
+#nombre, #email, #edad {
+    width:100%;
+     height:35px;
+     background-position: center;
+     border:none;
+     border-radius: 32px;
+     margin-top:8px;
+    }
+.formulario{
+    color: rgb(239, 242, 246);
+    padding:50px;
+}
+.real{
+color: rgb(239, 242, 246);
+text-align: center;
+font:var(--h1-bold);
+}
+.descripcion{
+ color: rgb(239, 242, 246);
+text-align: center;
+font:var(--parrafo);
+}
+.form{
+    padding:16px 0px;
+    }
+textarea{
+     width:80%;
+    height:70px;
+    }
+    input{
+        padding: 20px;
+    }
+    .campo_input{
+        padding:4px;
+        margin-top: 8px;
+    }
+    #submit{
+     background-color: #ff4b3e;
+      width:100%;
+      height:50px;
+      margin-top:32px;
+      margin-bottom:30px;
+      padding: 20px;
+      }

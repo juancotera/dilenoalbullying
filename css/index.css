@@ -8,9 +8,6 @@
 @import url(./actions.css);
 @import url(./home.css);
 
-/* FUENTES */
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playwrite+CU:wght@100..400&display=swap');
-
 :root {
     --blanco: #ffffff;
     --negro: #212121;
@@ -18,15 +15,15 @@
     --ladrillo: #972d07;
     --naranja: #ff4b3e;
     --amarillo: #ffb20f;
-    --h1-bold: 700 3.8125rem/normal Inter;
-    --h2-bold: 700 3.0625rem/normal Inter;
-    --h4-bold: 700 2.4375rem/normal Inter;
-    --h4-bold: 700 1.9375rem/normal Inter;
-    --h5-bold: 700 1.5625rem/normal Inter;
-    --h6-bold: 700 1.25rem/normal Inter;
-    --parrafo: 400 1rem/normal Inter;
-    --small: 400 0.8125rem/normal Inter;
-    --x-small: 400 0.625rem/normal Inter;
+    --h1-bold: 700 3.8125rem/7.500000298023224rem Inter;
+    --h2-bold: 700 3.0625rem/7.500000298023224rem Inter;
+    --h4-bold: 700 2.4375rem/7.500000298023224rem Inter;
+    --h4-bold: 700 1.9375rem/7.500000298023224rem Inter;
+    --h5-bold: 700 1.5625rem/7.500000298023224rem Inter;
+    --h6-bold: 700 1.25rem/7.500000298023224rem Inter;
+    --parrafo: 400 1rem/7.500000298023224rem Inter;
+    --small: 400 0.8125rem/7.500000298023224rem Inter;
+    --x-small: 400 0.625rem/7.500000298023224rem Inter;
 }
 
 * {
@@ -38,7 +35,6 @@
 
 .wrapper {
     max-width: 1400px;
-    /* border: 1px solid green; */
     margin: auto;
 }
 
