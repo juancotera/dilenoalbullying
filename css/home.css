@@ -8,13 +8,13 @@
     font-style: normal;
     font-weight: 700;
     line-height: 120%; 
+    color: var(--marron);
 }
 
 
 
 .home-box-princio {
     display: flex;
-    padding: 24px;
     margin-block: 80px;
     gap: 16px;
     width: 100%;
@@ -29,13 +29,14 @@
 }
 
 .report-box{
-    display: block;
     width: 100px;
-    margin: auto;
 }
 
 .home-box-one {
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 
 .home-imagen {
@@ -50,15 +51,16 @@
 /* segunda parte */
 
 .home-box-recomendaciones{
-    padding: 24px;
     margin-block: 80px;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
 }
 
 .home-subtitulo{
     font-size: 49px;
     text-align: center;
-    margin-bottom: 32px;
 }
 
 .home-card-contenido {
@@ -67,7 +69,6 @@
     padding: 12px;
     flex-direction: column;
     align-items: center;
-    gap: 16px;
     background-color: var(--amarillo);
     border-radius: 16px;
 }
