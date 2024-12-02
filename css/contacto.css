@@ -1,0 +1,57 @@
+
+.contacto {
+    display: flex;
+    width: 1440px;
+    height: 1100px;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+
+.contacto-contenido {
+    height: 900px;
+    margin: 40px 60px;
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.formulario-contacto h1 {
+    color: var(--negro);
+    font-family: Inter;
+    font-size: 39px;
+    font-style: normal;
+}
+
+.formulario-contacto input {
+    display: flex;
+    padding: 8px 16px;
+    display: flex;
+    width: 300px;
+    align-items: flex-start;
+    border: none;
+    border-radius: 5px;
+}
+
+.formulario-contacto label {
+    color: var(--negro);
+    width: 250px;
+    
+}
+
+.formulario-contacto textarea {
+    display: flex;
+    padding: 8px 16px;
+    width: 300px;
+    height: 100px;
+    border-radius: 5px;
+    align-items: flex-start;
+}
+
+.formulario-contacto button {
+    background-color: var(--amarillo);
+    width: 200px;
+    align-items: center;
+}
