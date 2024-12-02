@@ -27,29 +27,33 @@
 
     <main class="contacto"> 
         <div class="wrapper">
-          <div class="contacto-contenido">
-            
-            <!-- Campo de nombre -->
-            <label for="nombre">Primer Nombre:</label>
-            <input type="text" id="nombre" name="nombre" >
+          <form class="formulario-contacto">
+            <h1 class="titulo">Formulario de contacto</h1>
+            <div class="contacto-contenido">
+
+              <!-- Campo de nombre -->
+              <label for="nombre">Primer Nombre:</label>
+              <input type="texto" id="nombres" name="nombre" required> </br>
             
 
-            <!-- Campo de apellidos -->
-            <label for="apellidos">Apellidos:</label>
-            <input type="text" id="apellidos" name="apellidos">
+              <!-- Campo de apellidos -->
+              <label for="apellidos">Apellidos:</label>
+              <input type="texto" id="apellidos" name="apellidos" required></br>
             
 
-            <!-- Campo de teléfono -->
-            <label for="telefono">Número de Teléfono:</label>
-            <input type="tel" id="telefono" name="telefono">
+              <!-- Campo de teléfono -->
+              <label for="telefono">Número de Teléfono:</label>
+              <input type="telo" id="telefono" name="telefono" required> </br>
         
 
-            <!-- Campo para el mensaje -->
-            <label for="mensaje">Escribe aquí tu mensaje:</label>
-            <input type="men" id="mensaje" name="mensaje">
+              <!-- Campo para el mensaje -->
+              <label for="mensaje">Escribe aquí tu mensaje:</label>
+              <textarea type="meno" id="mensaje" name="mensaje" required></textarea> </br>
             
-            <button id="Botonclick">Enviar mensaje😀</button>
-          </div>
+              <button id="Botonclick">Enviar mensaje😀</button>
+            
+            </div>
+          </form>
         </div>
     </main>
     <footer class="footer">
