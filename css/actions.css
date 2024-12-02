@@ -10,7 +10,7 @@
     width: 400px;
     margin: auto;
     text-align: center;
-    font-size: 61px;
+    font: var(--h1 bold);
     font-family: Inter;
 }
 
