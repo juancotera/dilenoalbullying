@@ -21,21 +21,6 @@
   list-style: none;
 }
 
-/* .menu-items li a {
-  text-decoration: none;
-  padding: 16px 20px;
-  display: block;
-  color: var(--negro);
-  font: var(--small);
-  border-bottom: none;
-}
-
-.menu-items li a:hover {
-  color: var(--ladrillo);
-  border-bottom: 1px solid var(--naranja);
-  transition: border-bottom 0.3s ease;
-} */
-
 .menu-items li a {
   text-decoration: none;
   padding: 16px 20px;
