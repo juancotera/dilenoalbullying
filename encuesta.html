@@ -1,46 +1,65 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="styless.css"></link>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css"></link>
+    <link rel="preconnect" href="https://fonts.googleapls.com"></link>
+    <link rel="preconnect" href="https://fonts.gstatic.com " crossorigin></link>
+    <link href="https://fonts.googleapls.com/css2?family-Poppins&display-swap" rel="stylesheet">
     <title>Encuesta</title>
 </head>
 <body>
-    <div class="cuadrado"></div>
-    <h1 id="title">Encuesta de Informacion</h1>
-    <p id=" description">El bullying (Acoso escolar) es el daño que causa una persona a otra , daños fisicos mentales e psicologicos</p>
-    </div>
-        <div class="wrrapper">
-        <div class="content">
-        <div id="survey form">
-        <p>Nombre</p>
-        <label id="name-label"><input type="text" id="Nombre"  required placeholder="Ingrese su nombre">.</label>
-        <p>Gmail</p>
-        <label id="email-label"><input type="email" id="Gmail" required placeholder="Ingrese su Correo ">.</input></label>
-        <p>Edad</p>
-        <label id="number-label"><input type="number" id="number" required placeholder="Edad" max="99" min="10">.</input></label>
-        <p>Cual es su opinion acerca del Bullying ?</p>
-        <select id="dropdown"> 
-            <option disabled selected>Seleccione la opcion</option>
-             <option>esta bien</option>
-             <option>Esta muy mal</option>
-             <option>Es muy bueno para la salud de los niños y jovenes </option>          
-             <option>No esta bien por que hacemos daño alas personas que son victimas </option>     
-             <option>Otros</option>   
-           </select>
-           <p>Cree que el Bullying se a convertido en un problema mundial ?</p>
-           <div class="cristiano">
-            <label><input id="Si"type="radio" value="Si" name="fav-language">Si
-            </label>
-            <br>
-            <label><input id="No" type="radio" value="No" name="fav-language">No</label>
-             <br>
-            <label><input id="No lo se " type="radio" value="No lo se" name="fav-language">No lo se<label>
+    <main class="encuesta">
+        <div class="wrapper">
+            <div class="container">
+                <header class="header">
+                    <h1 class="real">Encuesta de Informacion</h1>
+                    <p class="descripcion">
+                        ✨ "Tu voz importa: ayúdanos a comprender y prevenir el bullying llenando esta encuesta. ¡Juntos podemos marcar la diferencia!" ✨</p>  
+                    </header>
+                    
+                    <form class="formulario">
+                        <div class="campo">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" id="nombre" placeholder="coloque su nombre" required></input>
+                        </div>
+                        <div class="campo">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="coloque su gmail" required></input>
+                        </div>
+                        <div class="campo">
+                            <label for="edad">Edad (opcional)</label>
+                            <input type="number" id="edad" placeholder="edad" required min="10" max="99"></input>
+                        </div>
+                        <div class="campo">
+                            <p>¿Podría compartir a qué se dedica profesionalmente?</p>
+                            <select class="campo_input">
+                                <option selected disabled>seleccione su rubro de trabajo</option>
+                                <option value="1">Soy comerciante</option>
+                                <option value="1">Profesor/a</option>
+                                <option value="1">Médico/a general</option>
+                                <option value="1">Psicólogo/a</option>
+                                <option value="1">Ingeniero/a en sí</option>
+                                <option value="1">Agricultor/a</option>
+                                <option value="1">Abogado/a</option>
+                                <option value="1">Contador</option>
+                                <option value="1"> otros</option>
+                            </select>
+                        </div>
+                        <div class="pio">
+                            <p>Conoces a alguien cercano que sufrio algun tipo de bullying ?</p>
+                            <textarea></textarea>
+                            <p>¿Has presenciado o experimentado bullying en tu escuela o en algun lugar?</p>
+                            <textarea></textarea>
+                        </div>
+                        <button id="submit"type="submit" name="submit">Enviar</button>
+                        
+                    </form>
+                    
+                </div>
             </div>
-            <p>Para ti que consecuencias graves trae el bullying ?</p>
-             <label id="texto-label"><input type="text" id="escribe aqui"  required placeholder="escriba aqui">.</label>
-            <p>Comentarios</p>
-            <textarea>comentarios aqui</textarea>
-            <button id="submit" type="submit" name="submit">Enviar</button>
-    </div>
+        </main>
 </body>
 </html>
