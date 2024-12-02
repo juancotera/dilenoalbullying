@@ -52,8 +52,18 @@
     gap: 20px;
 }
 
-.title{
+.testimonios-title{
     text-align: center;
     margin-bottom: 80px;
-
 }       
+
+.perfil-img {
+    width: 60px; /* Tamaño del círculo */
+    height: 60px;
+    border-radius: 50%; /* Hace la imagen circular */
+    object-fit: cover; /* Ajusta la imagen para que llene el espacio */
+    border: 2px solid #fff; /* Opcional: borde blanco alrededor */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Opcional: sombra */
+    margin-bottom: 10px; /* Espaciado entre la imagen y el texto */
+  }
+  
