@@ -1,3 +1,37 @@
-button {
-  background-color: red;
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav .logo {
+  color: var(--negro);
+  text-decoration: none;
+  font: var(--h4-bold);
+  color: var(--naranja);
+  text-transform: uppercase;
+}
+
+.menu-items {
+  display: flex;
+  gap: 16px;
+}
+
+.menu-items li {
+  list-style: none;
+}
+
+.menu-items li a {
+  text-decoration: none;
+  padding: 16px 20px;
+  display: block;
+  color: var(--negro);
+  font: var(--small);
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.5s ease;
+}
+
+.menu-items li a:hover {
+  color: var(--naranja);
+  border-bottom: 1px solid var(--naranja);
 }
